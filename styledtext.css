@@ -1,0 +1,18 @@
+/***************************************************/
+/*      estilo para styledtext.html                */
+/*      autora: Ruyi                               */
+/*      version: 1.0                               */
+/*      comentario: practicando css externo        */
+/***************************************************/                   
+
+ /*selectores de etiqueta*/
+        body {background-color: black;
+        color: white;}
+        h2 {color:salmon;}
+        /*selector id único, no se pueden usar continuamente*/
+        #encabezadop1{text-align: right;}
+        /*selector e class, colectivo, pueden usarse continuamente*/
+        .centrado  {text-align: center;}
+        /*selector contextual, añade contexto, más de un selector separados con espacios*/
+        .centrado b {color: red;} /* si pongo centrado b {color: red;} coloreo en rojo solo las palabras en negrita del párrafo centrado}
+        /* si hago sólo b {color: red;}: he puesto las palabras en negrita en color rojo*/
